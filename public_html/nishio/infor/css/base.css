@@ -1,0 +1,237 @@
+@charset "shift_jis";
+/* CSS Document */
+
+
+/* -------------CSSリセット-------------*/
+
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	font-style:normal;
+}
+
+
+body {
+	font-size:12px;
+	line-height: 1.5em;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	height:100%;
+}
+/* IE6 */
+
+*html body  {
+	font-size:12px;
+}
+
+
+/* IE7 */
+
+*:first-child+html body {
+	font-size:12px;
+}
+
+
+ul,ol,li {
+	list-style:none;
+}
+
+img {
+	margin:0px;
+	padding:0px;
+	border:0;
+	vertical-align:bottom;
+}
+
+.clear{
+	clear:both;
+}
+
+div.clear {
+	height:0px;
+	line-height:0;
+	font-size:0;
+}
+
+hr {
+	display:none;
+}
+a {
+	outline: none;
+}
+a:link {
+	text-decoration:none;
+	color:#333333;
+}
+a:visited {
+	text-decoration:none;
+	color:#333333;
+}
+a:hover {
+	text-decoration: underline;
+	border-bottom:none;
+	color:#5E98DF;
+}
+/* -------------CSSリセット-------------*/
+/* -------------リストの間隔をつめる-------------*/
+li {
+	list-style:none;
+	list-style-type:none;
+	line-height:100%;
+	border:0;
+	/*font-size:0*/
+}
+
+/* ------------- フッターを下に固定する------------*/
+
+html, body, #wrap {
+	height: 100%;
+}
+body > #wrap {
+	height: auto;
+	min-height: 100%;
+}
+#wrap {
+margin-top:0;
+margin-left:10px;
+	width:707px;
+	text-align:center;
+}
+#main {
+	padding-bottom: 40px;
+}
+/* footer */
+
+#footer {text-indent: -9999px;
+	position: relative;
+	width:707px;
+	margin-left:10px;
+	margin-top: -40px; /* footer*/
+	height: 40px;
+	clear:both;
+}
+/* CLEAR FIX*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+
+
+/* ------------- グローバルナビ------------*/
+#nav li,#nav02 li{
+display:block;
+float:left;
+text-indent:-9999px;
+height:51px;
+}
+
+#nav li a {
+display:block;
+text-decoration:none;
+padding:0;
+height:51px;
+background-image:url(../img/common/g_btn.jpg);
+background-repeat:no-repeat;
+}
+#nav02 li a {
+display:block;
+text-decoration:none;
+padding:0;
+height:51px;
+background-image:url(../img/common/e_g_btn.jpg);
+background-repeat:no-repeat;
+}
+#nav li#nav_bar01,#nav02 li#nav_bar01{
+	width:11px;
+	height: 51px;
+}
+#nav li#nav01,#nav02 li#nav01{
+	width:138px;
+	height: 51px;
+}
+#nav li#nav02,#nav02 li#nav02{width:137px;}
+#nav li#nav03,#nav02 li#nav03{width:137px;}
+#nav li#nav04,#nav02 li#nav04{width:137px;}
+#nav li#nav05,#nav02 li#nav05{width:136px;}
+#nav li#nav_bar02,#nav02 li#nav_bar02{width:11px;}
+
+#nav li#nav_bar01 a,#nav02 li#nav_bar01 a{background-position:0 0;}
+#nav li#nav01 a,#nav02 li#nav01 a{background-position:-11px 0;}
+#nav li#nav02 a,#nav02 li#nav02 a{background-position:-149px 0;}/*138+11*/
+#nav li#nav03 a,#nav02 li#nav03 a{background-position:-286px 0;}/*138+11+137*/
+#nav li#nav04 a,#nav02 li#nav04 a{background-position:-423px 0;}/*138+11+137+137*/
+#nav li#nav05 a,#nav02 li#nav05 a{background-position:-560px 0;}/*138+11+137+137+137*/
+#nav li#nav_bar02 a,#nav02 li#nav_bar02 a{background-position:-696px 0;}/*138+11+137+137+137+136*/
+
+#nav li#nav01 a:hover,#nav02 li#nav01 a:hover{background-position:-11px 100%;}
+#nav li#nav02 a:hover,#nav02 li#nav02 a:hover{background-position:-149px 100%;}/*138+11*/
+#nav li#nav03 a:hover,#nav02 li#nav03 a:hover{background-position:-286px 100%;}/*138+11+137*/
+#nav li#nav04 a:hover,#nav02 li#nav04 a:hover{background-position:-423px 100%;}/*138+11+137+137*/
+#nav li#nav05 a:hover,#nav02 li#nav05 a:hover{background-position:-560px 100%;}/*138+11+137+137+137*/
+
+
+/* ------------- footer------------*/
+#footer{
+background:url(../img/common/foot_bar.gif) top no-repeat;
+height:27px;
+}
+
+/* ------------- ページトップへ------------*/
+
+#top_btn,#top_btn02{
+width:672px;
+margin:0 auto;
+padding-bottom:10px;
+}
+#top_btn ul li{
+text-align: right;
+line-height:1.5;
+padding:0 0 0 15px;
+background:url(../img/common/up_btn.gif) no-repeat 585px 0.5em;
+
+
+}
+#top_btn02 ul li{
+text-align: right;
+line-height:1.5;
+padding:0 0 0 15px;
+background:url(../img/common/up_btn.gif) no-repeat 610px 0.5em;
+
+
+}
+
+#f_navi ul {
+margin-top:10px;
+	text-align: center;
+	
+}
+#f_navi ul li {
+	display: inline;
+	margin-left: 10px;
+	padding-left: 10px;
+	border-left: 1px dotted #000;
+}
+#f_navi ul li:first-child,  #f_navi ul li.firstChild {
+	margin-left: 0;
+	padding-left: 0;
+	border-left: 0;
+}
+#counter{
+margin-top:10px;
+
+}

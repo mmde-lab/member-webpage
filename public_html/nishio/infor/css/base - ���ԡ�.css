@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* -------------CSSリセット-------------*/
+
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	font-style:normal;
+}
+
+
+body {
+	font-size:12px;
+	line-height: 1.5em;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	height:100%;
+}
+
+/* IE6 */
+
+*html body  {
+	font-size:12px;
+}
+
+
+/* IE7 */
+
+*:first-child+html body {
+	font-size:12px;
+}
+
+
+ul,ol,li {
+	list-style:none;
+}
+
+img {
+	margin:0px;
+	padding:0px;
+	border:0;
+	vertical-align:bottom;
+}
+
+.clear{
+	clear:both;
+}
+
+div.clear {
+	height:0px;
+	line-height:0;
+	font-size:0;
+}
+
+hr {
+	display:none;
+}
+a {
+	outline: none;
+}
+a:link {
+	text-decoration:none;
+	color:#333333;
+}
+a:visited {
+	text-decoration:none;
+	color:#333333;
+}
+a:hover {
+	text-decoration: underline;
+	border-bottom:none;
+	color:#5E98DF;
+}
+/* -------------CSSリセット終わり-------------*/
+/* -------------リストの間を詰める-------------*/
+li {
+	list-style:none;
+	list-style-type:none;
+	line-height:100%;
+	border:0;
+	/*font-size:0*/
+}
+/* -------------リストの間を詰める　終わり-------------*/
+/* ------------- フッターを画面下に固定する-------------*/
+
+html, body, #wrap {
+	height: 100%;
+}
+body > #wrap {
+	height: auto;
+	min-height: 100%;
+}
+#wrap {
+margin-top:0;
+margin-left:10px;
+	width:707px;
+	text-align:center;
+}
+#main {
+	padding-bottom: 40px;
+}
+/* footerの高さと同じにする */
+
+#footer {text-indent: -9999px;
+	position: relative;
+	width:707px;
+	margin-left:10px;
+	margin-top: -40px; /* footerの高さの負の数 */
+	height: 40px;
+	clear:both;
+}
+/* CLEAR FIX*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+/* ------------- フッターを画面下に固定する終了-------------*/
+
+#header{
+width:707px;
+height:93px;
+}
+
+#nav li{
+list-style:none;
+display:block;
+margin:0;
+padding:0;
+float:left;
+text-indent:-9999px;
+height:51px;
+}
+#nav li a{
+
+display:block;
+text-decoration:none;
+padding:0;
+height:51px;
+background-image:url(../img/common/g_btn.jpg);
+background-repeat:no-repeat;
+}
+
+#nav li.nav_bar01{width:11px;}
+#nav li.gnavi1{width:138px;}
+#nav li.gnavi2{width:137px;}
+#nav li.gnavi3{width:137px;}
+#nav li.gnavi4{width:137px;}
+#nav li.gnavi5{width:136px;}
+#nav li.nav_bar02{width:11px;}
+/*
+#nav li.nav_bar01 a{background-position:0px 0;}
+#nav li.gnavi1 a{background-position:-11px 0;}
+#nav li.gnavi2 a{background-position:-149px 0;}/*138+11*/
+/*#nav li.gnavi3 a{background-position:-286px 0;}/*138+11+137*/
+/*#nav li.gnavi4 a{background-position:-423px 0;}/*138+11+137+137*/
+/*#nav li.gnavi5 a{background-position:-559px 0;}/*138+11+137+137+136*/
+/*#nav li.nav_bar02 a{background-position:-570px 0;}/*138+11+137+137+136+11*/*/
+/* ------------- フッター-------------*/
+
+#footer01{
+
+background:url(../img/common/foot_bar.gif) top no-repeat;
+
+
+	
+}

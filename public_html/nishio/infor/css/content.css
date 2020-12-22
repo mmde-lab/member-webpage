@@ -1,0 +1,255 @@
+@charset "Shift_JIS";
+/* CSS Document */
+
+
+/*メッセージ*/
+#english_btn,#j_btn{
+text-indent:-9999px;
+padding-left:594px;
+margin-bottom:7px;
+
+}
+
+#english_btn a {
+display:block;
+text-decoration:none;
+padding:0;
+height:20px;
+background-image:url(../img/common/e_btn.gif);
+background-repeat:no-repeat;
+}
+#j_btn a {
+display:block;
+text-decoration:none;
+padding:0;
+height:20px;
+background-image:url(../img/common/j_btn.gif);
+background-repeat:no-repeat;
+}
+#english_btn,#j_btn{width:91px;}
+
+#english_btn a,#j_btn a{background-position:0 0;}
+
+
+#english_btn a:hover,#j_btn a:hover{background-position:0 100%;}
+
+.current_page02{
+background:url(../img/common/g_btn.jpg) -11px 100%;
+}
+.current_page02 a {
+width:137px;
+display:block;
+text-decoration:none;
+padding:0;
+height:51px;
+background-image:url(../img/common/g_btn.jpg);
+background-repeat:no-repeat;
+}
+.current_page02 a{background-position:-149px 100%;}/*138+11*/
+
+
+#nisio_photo{
+width:148px;
+float:left;
+}
+
+#nisio_midasi{
+border-bottom:#004096 solid 1px;
+padding-bottom:5px;
+font-size:18px;
+width:552px;
+float:right;
+text-align:left;
+}
+#nisio_midasi02{
+border-bottom:#004096 solid 1px;
+padding-bottom:5px;
+font-size:16px;
+width:552px;
+float:right;
+text-align:left;
+}
+
+#nisio_namae{
+padding-top:55px;
+font-size:12px;
+width:552px;
+float:right;
+text-align:left;
+}
+#nisio_namae02{
+font-size:14px;
+}
+.content_text{
+font-size:12px;
+width:707px;
+line-height:1.5;
+text-align:left;
+margin-bottom:20px;
+
+}
+#content_text02{
+width:677px;
+background-color:#E5EDF6;
+line-height:1.5;
+text-align:left;
+padding:0 15px;
+
+}
+.content_midasi{
+color:#004096;
+font-size:14px;
+font-weight:bold;
+width:707px;
+}
+
+/*平成19年度成果*/
+
+.current_page03{
+background:url(../img/common/g_btn.jpg) -286px  100%;
+}
+.current_page03 a,.current_page04 a{
+width:137px;
+display:block;
+text-decoration:none;
+padding:0;
+height:51px;
+background-image:url(../img/common/g_btn.jpg);
+background-repeat:no-repeat;
+}
+.current_page03 a{background-position:-286px 100%;}/*138+11*/
+
+#top_19_img{
+background-image:
+url(../img/19/top_19.jpg) top no-repeat;
+width:672px;
+}
+
+
+#h19_midasi{
+background-image:url(../img/19/top_19.jpg) top no-repeat;
+width:672px;
+}
+h2{
+display:none;
+}
+#top_19_img h1{
+display:none;
+}
+#top_20_img h1{
+display:none;
+}
+#maincontent{
+width:672px;
+margin:0 auto;
+}
+
+.nendo_seika{
+padding-left:35px;
+padding-bottom:20px;
+width:455px;
+margin:0 auto;
+background:url(../img/common/haikei.jpg) top;
+background-repeat: repeat-y;
+text-align:left;
+}
+
+h3{
+display:none;
+}
+
+.seika_link{
+font-size:12px;
+padding-top:5px;
+}
+.seika_namae{
+font-size:10px;
+padding-top:2px;
+}
+
+
+/*平成20年度成果*/
+
+.current_page04{
+background:url(../img/common/g_btn.jpg) -423px  100%;
+}
+.current_page04 a{background-position:-423px 100%;}
+
+
+/*平成21年度成果*/
+.current_page05{
+background:url(../img/common/g_btn.jpg) -560px  100%;
+}
+.current_page05 a{background-position:-560px 100%;}
+
+.current_page05 a{
+width:136px;
+display:block;
+text-decoration:none;
+padding:0;
+height:51px;
+background-image:url(../img/common/g_btn.jpg);
+background-repeat:no-repeat;
+}
+
+
+/**/
+
+#index_bar02{
+width:501px;
+margin:0 auto;
+}
+.index_koumoku ul li{
+text-align:left;
+line-height:1.5;
+padding:0 0 0 15px;
+background:url(../img/top/iindex_ya.gif) no-repeat 0 0.5em;
+
+}
+.index_koumoku{
+margin-bottom:40px;
+
+
+}
+.midasi{
+text-align:left;
+color:#0053A6;
+font-size:14px;
+font-weight:bold;
+padding:10px 0 2px 0;
+}
+.midasi02{
+text-align:left;
+color:#000000;
+font-size:12px;
+
+padding:10px 0 2px 0;
+}
+
+.midasi03{
+text-align:left;
+color:#000000;
+font-size:12px;
+font-weight:
+normal;
+}
+
+
+
+.bar{
+margin-top:10px;
+}
+/**/
+#nav02 .e_current_page03{
+background:url(../img/common/e_g_btn.jpg) -286px  100%;
+}
+#nav02 .e_current_page03 a{
+width:137px;
+display:block;
+text-decoration:none;
+padding:0;
+height:51px;
+background-image:url(../img/common/e_g_btn.jpg);
+background-repeat:no-repeat;
+}
+#nav02 .e_current_page03 a{background-position:-286px 100%;}/*138+11*/
