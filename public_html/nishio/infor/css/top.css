@@ -1,0 +1,281 @@
+@charset "Shift_JIS";
+/* CSS Document */
+
+/*メッセージ*/
+#english_btn,#j_btn{
+	text-indent:-9999px;
+	padding-left:594px;
+	margin-bottom:7px;
+
+}
+
+#english_btn a {
+display:block;
+text-decoration:none;
+padding:0;
+height:20px;
+background-image:url(../img/common/e_btn.gif);
+background-repeat:no-repeat;
+}
+#j_btn a {
+display:block;
+text-decoration:none;
+padding:0;
+height:20px;
+background-image:url(../img/common/j_btn.gif);
+background-repeat:no-repeat;
+}
+#english_btn,#j_btn{width:91px;}
+
+#english_btn a,#j_btn a{background-position:0 0;}
+
+
+#english_btn a:hover,#j_btn a:hover{background-position:0 100%;}
+
+
+
+#maincontent{
+width:672px;
+margin:0 auto;
+}
+#top_img{
+background-image:url(../img/top/top_img.jpg) top no-repeat;
+width:672px;
+height:317px;
+}
+#top_img02{
+background-image:url(img/top/e_top_img.jpg) top no-repeat;
+width:672px;
+height:317px;
+}
+h1{
+display:none;
+}
+#sub_nav{
+width:194px;
+
+
+}
+
+#sub_nav {
+	text-decoration:none;
+	list-style-type: none;
+	width: 194px;
+	float:left;
+}
+#sub_nav li {
+background-image:url(../img/top/sub_nav_btn.jpg);
+width: 194px;
+background-repeat: no-repeat;
+}
+
+#sub_nav02 {
+	text-decoration:none;
+	list-style-type: none;
+	width: 194px;
+	float:left;
+}
+#sub_nav02 li {
+background-image:url(../img/top/e_sub_nav_btn.jpg);
+width: 194px;
+background-repeat: no-repeat;
+}
+/*------------ホームボタン------------*/
+#menu1 li, #menu1 a {
+	width:194px;
+	height:56px;
+}
+#menu1 a {
+	text-indent: -9999px;
+	text-decoration: none;
+	display: block;
+	background-image: url(../img/top/sub_nav_btn.jpg);
+	background-repeat: no-repeat;
+}
+/*ホーム以外のボタン
+---------------------------------*/
+
+#menu2 li, #menu3 li, #menu4 li, #menu5 li, #menu6 li, #menu7 li {
+	width:194px;
+	height:51px;
+}
+#menu2 a, #menu3 a, #menu4 a, #menu5 a, #menu6 a, #menu7 a {
+	width:194px;
+	height:51px;
+}
+#menu2 a, #menu3 a, #menu4 a, #menu5 a, #menu6 a, #menu7 a {
+	text-indent: -9999px;
+	text-decoration: none;
+	display: block;
+	width: 194px;
+	height: 51px;
+	background-image: url(../img/top/sub_nav_btn.jpg);
+	background-repeat: no-repeat;
+}
+#e_menu2 li,#e_menu3 li{
+	width:194px;
+	height:51px;
+}
+#e_menu2 a,#e_menu3 a{
+	width:194px;
+	height:51px;
+}
+#e_menu2 a,#e_menu3 a{
+text-indent: -9999px;
+	text-decoration: none;
+	display: block;
+	width: 194px;
+	height: 51px;
+	background-image: url(../img/top/e_sub_nav_btn.jpg);
+	background-repeat: no-repeat;
+}
+/*------------ナビゲーションボタンのロールオーバー指定------------*/
+#menu1 {
+	background-position: -194px 0px;
+}
+
+#menu2 {
+	background-position: -194px -56px;
+}
+#menu3 {
+	background-position: -194px -107px;
+}
+
+#e_menu2 {
+	background-position: -194px -56px;
+}
+#e_menu3 {
+	background-position: -194px -107px;
+}
+#menu4 {
+	background-position: -194px -158px;
+}
+#menu5 {
+	background-position: -194px -209px;
+}
+
+#menu1 a {
+	background-position: 0 0;
+}
+#menu2 a {
+	background-position: 0 -56px;
+}
+#menu3 a {
+	background-position: 0 -107px;
+}
+#e_menu2 a {
+	background-position: 0 -56px;
+}
+#e_menu3 a {
+	background-position: 0 -107px;
+}
+#menu4 a {
+	background-position: 0 -158px;
+}
+#menu5 a {
+	background-position: 0 -209px;
+}
+
+#sub_nav a:hover,#sub_nav02 a:hover {
+	text-decoration: none;
+	background-color: transparent;
+	background-image: none;
+}
+
+
+
+/*現在のページ*/
+.current_page02{
+background:url(../img/common/g_btn.jpg) -11px 100%;
+}
+.current_page02 a {
+width:137px;
+display:block;
+text-decoration:none;
+padding:0;
+height:51px;
+background-image:url(../img/common/g_btn.jpg);
+background-repeat:no-repeat;
+}
+.current_page02 a{background-position:-149px 100%;}/*138+11*/
+
+.current_page{
+background:url(../img/common/g_btn.jpg) -11px 100%;
+}
+.current_page03{
+background:url(../img/common/e_g_btn.jpg) -11px 100%;
+}
+/*インデックス内容*/
+
+#index_bar{
+width:463px;
+float:right;
+}
+
+.index_midasi{
+background:url(../img/top/index_bar.gif) top no-repeat;
+width:463px;
+height:26px;
+text-indent: -9999px;
+}
+.index_midasi03{
+background:url(../img/top/e_index_bar.gif) top no-repeat;
+width:463px;
+height:26px;
+text-indent: -9999px;
+}
+.index_midasi02{
+background:url(../img/top/index_syoukai.gif) top no-repeat;
+width:463px;
+height:20px;
+text-indent: -9999px;
+margin-top:10px;
+}
+.index_midasi04{
+background:url(../img/top/e_midasi.gif)top no-repeat;
+width:463px;
+height:20px;
+text-indent: -9999px;
+margin-top:10px;
+}
+.index_koumoku ul li{
+text-align:left;
+line-height:1.5;
+padding:0 0 0 15px;
+background:url(../img/top/iindex_ya.gif) no-repeat 0 0.5em;
+
+}
+.index_koumoku{
+margin-bottom:40px;
+
+
+}
+.midasi{
+text-align:left;
+color:#0053A6;
+font-size:14px;
+font-weight:bold;
+padding:10px 0 2px 0;
+}
+.midasi02{
+text-align:left;
+color:#000000;
+font-size:12px;
+
+padding:10px 0 2px 0;
+}
+
+.midasi03{
+text-align:left;
+color:#000000;
+font-size:12px;
+font-weight:
+normal;
+}
+
+
+
+
+.bar{
+margin-top:10px;
+}
